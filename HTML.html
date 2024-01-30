@@ -1,1 +1,31 @@
-<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">ol{margin:0;padding:0}table td,table th{padding:0}.c1{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c0{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c3{background-color:#ffffff;max-width:451.4pt;padding:72pt 72pt 72pt 72pt}.c2{height:11pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style></head><body class="c3 doc-content"><p class="c0"><span class="c1">&lt;!DOCTYPE html&gt;</span></p><p class="c0"><span class="c1">&lt;html lang=&quot;en&quot;&gt;</span></p><p class="c0"><span class="c1">&lt;head&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;meta charset=&quot;UTF-8&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;title&gt;Notas PDF&lt;/title&gt;</span></p><p class="c0"><span class="c1">&lt;/head&gt;</span></p><p class="c0"><span class="c1">&lt;body&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;h1&gt;Notas PDF&lt;/h1&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;div id=&quot;pdfContainer&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Mostrar imagen del PDF --&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;img src=&quot;/Users/andreagalicia/Downloads/RACS- CONOCE TU HUELLA- DINA&#769;MICA.png&quot; alt=&quot;P&aacute;gina del PDF&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;/div&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;form id=&quot;noteForm&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;label for=&quot;note&quot;&gt;Escribe tus notas aqu&iacute;:&lt;/label&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;textarea id=&quot;note&quot; name=&quot;note&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;&lt;/textarea&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &lt;input type=&quot;submit&quot; value=&quot;Guardar Nota&quot;&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;/form&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;script&gt;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; document.getElementById(&#39;noteForm&#39;).addEventListener(&#39;submit&#39;, function(event) {</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; event.preventDefault();</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var noteText = document.getElementById(&#39;note&#39;).value;</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Puedes agregar c&oacute;digo para guardar la nota asociada a la p&aacute;gina actual del PDF.</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; console.log(&quot;Nota guardada: &quot; + noteText);</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; });</span></p><p class="c0"><span class="c1">&nbsp; &nbsp; &lt;/script&gt;</span></p><p class="c0"><span class="c1">&lt;/body&gt;</span></p><p class="c0"><span class="c1">&lt;/html&gt;</span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0 c2"><span class="c1"></span></p><p class="c0 c2"><span class="c1"></span></p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas PDF</title>
+</head>
+<body>
+    <h1>Notas PDF</h1>
+    <div id="pdfContainer">
+        <!-- Mostrar imagen del PDF -->
+        <img src="/Users/andreagalicia/Downloads/RACS- CONOCE TU HUELLA- DINÁMICA.png" alt="Página del PDF">
+    </div>
+
+    <form id="noteForm">
+        <label for="note">Escribe tus notas aquí:</label>
+        <textarea id="note" name="note" rows="4" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Guardar Nota">
+    </form>
+
+    <script>
+        document.getElementById('noteForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var noteText = document.getElementById('note').value;
+            // Puedes agregar código para guardar la nota asociada a la página actual del PDF.
+            console.log("Nota guardada: " + noteText);
+        });
+    </script>
+</body>
+</html>
